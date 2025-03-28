@@ -22,6 +22,7 @@ use external_multiple_structure;
 use external_single_structure;
 use external_value;
 
+require_once("$CFG->libdir/externallib.php");
 
 /**
  * Jupyter web service class for resetting the notebook.
