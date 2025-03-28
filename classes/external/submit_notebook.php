@@ -18,6 +18,7 @@ namespace mod_jupyter\external;
 
 defined('MOODLE_INTERNAL') || die();
 
+require_once("$CFG->libdir/externallib.php");
 require_once("$CFG->dirroot/mod/jupyter/lib.php");
 
 
